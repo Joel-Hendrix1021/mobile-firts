@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+/*=================main syle===========*/
+.main__container{
+    display: flex;
+    height: 330px;
+    justify-content:space-around;
+    flex-direction: column;
+    color:white;
+    background-image: linear-gradient( 109.6deg, #0b8491   11.2%, rgba(0,0,0,1) 91.1% );;
+    align-items: center;
+   
+}
+.main__container picture {
+    margin-top: 40px;
+    width: 140px;
+}
+.main__text {
+    margin-top:-30px;
+}
+.main__button{
+    -webkit-box-shadow: 1px -4px 18px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px -4px 18px 0px rgba(0,0,0,0.75);
+box-shadow: 1px -4px 18px 0px rgba(0,0,0,0.75);
+    position: relative;
+    text-decoration: none;
+    background:white;
+    color: black;
+    border-radius: 5px;
+    padding: 15px;
+    top: 40px;
+}
+.arrow {
+    display: inline-block;
+    height: 8px;
+    width: 13px;
+    margin: 0 0 0 10px;
+    background-image: url(../assets/down-arrow.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/*========================section 1 style=====================================*/
+.section{
+   width: 100%;
+   text-align: center;
+   margin:auto;
+   background-color: #faf8f7;
+   padding-bottom: 40px;
+}
+.section__img {
+    display: block;
+    padding:80px 0 10px 0;
+    background-color: #faf8f7;
+}
+
+.section__text{
+    margin-top: 10px;
+    padding: 10px;
+}
+
+/*=========================table the money =======================*/
+.section__table {
+    background-color: #faf8f7;
+    padding:5rem 0;
+}
+.container__table {
+   
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 70%;
+}
+.table__price {
+    text-align: center;
+    width: 20rem;
+    
+}
+.table__price table {
+    width:100%;
+    margin: 10px;
+}
+.table tr {
+    background: white; 
+    
+}
+.table td {
+    padding:1.5rem  ;
+     
+}
+
+
+/*===================table==========*/
+.table__title {
+    font-weight: bold;
+    color:#FF9536;
+    width: 10rem;
+    padding:5px 0;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.modifer__title {
+    color: #1A9AF7;
+}
+
+.table__subtitle {
+    background:rgba(255, 148, 54, 0.377);
+    padding:5px ;
+    border-radius: 10px;
+    width: 15rem;
+    margin: auto;
+}
+
+.modifer__subtitle {
+    background:rgba(26, 155, 247, 0.253);
+}
+
+.table__subtitle span {
+    font-weight: bold;
+}
+
+.table__top--left {
+    border-radius: 10px 0 0 0;
+}
+.table__top--right {
+    border-radius: 0 10px 0 0;
+}
+.table__bottom--left {
+    border-radius: 0 0 0 10px  ;
+}
+.table__bottom--right {
+    border-radius: 0  0 10px  0 ;
+}
+
+/*=======================setion 2=========================*/
+
+.patata {
+    position: relative;
+    display:inline-block ;
+    width: 40.57px;
+    height: 24.01px;
+    background-image: url('../assets/Vector.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: -10px;
+}
+
+.section__cards{
+    color:white;
+    background:#201e1c;
+   
+}
+.section__cards h1 {
+    padding: 50px 0px 20px 0px;
+    
+}
+
+.section__cards p {
+    color:#808080;
+    margin-bottom: 20px;
+}
+
+.container__cards{
+    display: flex;
+    flex-direction: column;
+}
+
+.container__wrapper {  
+    margin: 0px auto;
+    display: flex;
+    justify-content:space-around;
+    width: 80%;
+}
+
+.container__cards--items {
+    max-width: 400px;
+    height: 150px;
+    text-align: left;
+    padding:10px;
+    background: #282623;
+    margin:15px 0;
+    padding:10px;
+    border-radius: 5px;
+    -webkit-box-shadow: -1px 0px 50px -23px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 0px 50px -23px rgba(0,0,0,0.75);
+box-shadow: -1px 0px 50px -23px rgba(0,0,0,0.75);
+}
+
+.cards__title{
+    padding:10px 0;
+}
+
+.container__banner{
+    background-image: url('/imgs/bitcoinbaby\ 1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    width: 100%;
+    min-width: 320px;
+    text-align: center;
+    color: white;
+}
+.container__banner h1 {
+    padding-top:60px;
+}
+/*====================section 3================*/
+
+.section__title{
+    padding: 60px 0px 10px 0px;
+    text-align: center;
+}
+.section__text{
+    text-align: center;
+    color:#808080;
+}
+
+.cards__price{
+    margin-top: 30px;
+    display:flex;
+    justify-content: center;
+     position: relative;
+     overflow-x: scroll;
+     
+}
+.cards {
+    background:white;
+    margin: 15px 30px 0px;
+    height: 250px;
+    width:300px;
+    border-radius: 15px;
+    padding:20px;
+    text-align: center;
+    -webkit-box-shadow: 0px 0px 7px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 7px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 7px -2px rgba(0,0,0,0.75);
+    
+}
+.cards p {
+    margin-top: 10px;
+}
+.cards h1 {
+    padding:5px;
+    font-size:60px;
+}
+.cards a {
+    margin:10px auto;
+    display:block;
+    background: #faf8f7;
+    width: 170px;
+    padding: 10px;
+    text-decoration: none;
+    border: 2px solid #0b8491;
+    border-radius:5px;
+    color: black;
+    font-weight: 700;
+}
+.btn__card {
+    top:0px;
+    right: 610px;
+    position: absolute;
+    background: #0b8491;
+    padding: 5px 15px;
+    border-radius:5px;
+    color: white;
+}
+
+.section__price {
+    background-color: #faf8f7;  
+   height: 80vh;
+}
+/*========================footer===============*/
+
+footer {
+    background:#0b8491;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 25vh;
+}
+
+.footer__container{
+    width:57%;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.footer__link {
+    display: flex;
+    flex-direction: column;
+}
+.footer__link a {
+    text-decoration: none;
+    color:white;
+    padding: 4px;
+}
+.footer__container span {
+    display:block;
+    width: 40.57px;
+    height: 24.01px;
+    background-image: url('../assets/Vector.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media(max-width:1000px){
+    .container__wrapper {
+       flex-direction: column;
+       align-items: center;
+    }
+    .container__table {
+       flex-direction: column;
+       align-items: center;
+    }
+}
